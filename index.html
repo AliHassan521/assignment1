@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Assignment html tags</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="ml-2">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" onclick=""
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" onclick="">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+   
+                    <main>
+                        <h1>Ali Hassan</h1>
+                        <h2>Ali Hassan</h2>
+                        <h3>Ali Hassan</h3>
+                        <h4>Ali Hassan</h4>
+                        <h5>Ali Hassan</h5>
+                        <h6>Ali Hassan</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nisi lacus, auctor sit
+                            amet purus vel,
+                            gravida luctus lectus. Aenean rhoncus dapibus enim, sit amet faucibus leo ornare vitae. <br>
+                            <span> span </span>
+                            <b>Bold word</b>
+                            <i>italic</i>
+                            <small> small </small>
+                            <sub> sub </sub>
+                            <sup> sup </sup>
+                            <em>emphasis</em>
+                            <mark>mark</mark>
+                           
+                            <u> Statements... </u>
+                            <abbr title="University of Engineering and Technology">UET</abbr>
+                           
+                            <a href="#link">link</a>
+                            <time datetime="2020-08-17 08:00">Monday at 8:00 AM</time>
+                            <ruby>
+                                <rb>ruby base<rt>annotation
+                            </ruby>
+                            <span><del> deprecated info </del> <ins> new info </ins> </span>
+                            <s> not relevant </s>
+                            <br>
+                            <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>CANC</kbd>
+                        </p>
+                    </main>
+
+                    <p> This is a <q>quote</q> </p>
+
+                    <ol>
+                        <li>ordered list</li>
+                        <li>ordered list</li>
+                    </ol>
+
+                    <ul>
+                        <li>unordered list</li>
+                        <li>unordered list</li>
+                        <li>unordered list</li>
+                    
+                    </ul>
+
+                    <hr>
+
+                    <template>
+                        <h2>Hidden content (after page loaded).</h2>
+                    </template>
+            
+
+                    <video width="480" height="480"
+                        src="" controls>
+                        <track kind="subtitles" src="subtitles_de.vtt" srclang="de">
+                        <track kind="subtitles" src="subtitles_en.vtt" srclang="en">
+                        <track kind="subtitles" src="subtitles_ja.vtt" srclang="ja">
+                    </video>
+                    <br>
+                    <audio controls>
+                        I'm sorry. You're browser doesn't support HTML5 <code>audio</code>.
+                        <source src="" type="audio/ogg">
+
+                    </audio>
+                    <p>This is a recording of a talk called <cite>Reclaim HTML5</cite> which was orinally delieved in
+                        Vancouver at a <a href="http://www.meetup.com/vancouver-javascript-developers/"
+                            taget="_blank">Super VanJS Meetup</a>. It is
+                        hosted by <a href="https://archive.org/details/ReclaimHtml5" target="_blank">The Internet
+                            Archive</a> and
+                        licensed under <a href="http://creativecommons.org/licenses/by/3.0/legalcode" target="_blank">CC
+                            3.0</a>.</p>            
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>ali</td>
+                <td>hassan</td>
+                <td>@alihassan</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>azhar</td>
+                <td>usman</td>
+                <td>@user</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p> A <dfn>definition</dfn> is an explanation of the meaning of a word or phrase. </p>
+
+    <details>
+        <summary>Summary of content below</summary>
+        <p>Content 1</p>
+        <p>Content 2</p>
+        <p>Content 3</p>
+        <p>Content 4</p>
+    </details>
+    <section>
+        <h1>Content</h1>
+        <p>Informations about content.</p>
+    </section>
+
+    <progress value="33" max="100"></progress>
+    <br>
+    <meter value="11" min="0" max="45" optimum="40">25 out of 45</meter>
+
+    <p> 2+2 = <output>4</output> </p>
+
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Open this select menu</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+    </svg>
+
+    <br>
+
+    <textarea id="textarea" name="textarea" rows="4" cols="50">
+        Write something in here
+    </textarea>
+
+    <br>
+
+
+
+    <article>
+        <header>
+            <h2>Title of Article</h2>
+            <span>by Ali Hassan</span>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam volutpat sollicitudin nisi, at convallis nunc
+            semper et. Donec ultrices odio ac purus facilisis, at mollis urna finibus.</p>
+        <figure>
+            <img src="https://placehold.it/600x300" alt="placeholder-image">
+            <figcaption> Caption.</figcaption>
+        </figure>
+        <footer>
+            <dl>
+                <dt>Dummy</dt>
+                <dd>17 August 2020</dd>
+                <dt>Tags</dt>
+                <dd>hellow data is here</dd>
+            </dl>
+        </footer>
+    </article>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+
+    <aside>
+        <p> P inside ASIDE tag </p>
+    </aside>
+    <map name="shapesmap"> <area shape="rect" coords="29,32,230,215" href="#square" alt="Square"> <area shape="circle"
+            coords="360,130,100" href="#circle" alt="Circle"> </map>
+
+    <img src="https://placehold.it/100x100" alt="placeholder-image">
+
+    <form action="" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+ 
+
+    <footer>
+        <address> UET lahore Narowal Campus <a href="alihassan521@gmail.com">Mail</a>.</address>
+        <div> Created by Ali Hassan</a></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
